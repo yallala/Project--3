@@ -1,0 +1,339 @@
+.spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    z-index: 9999;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* To simulate content loading, we use an animation delay */
+.content {
+    animation: fadeIn 5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Hide the spinner and show content after 2 seconds */
+@keyframes hideSpinner {
+    50% {
+        opacity: 1;
+        visibility: visible;
+    }
+    99% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.spinner-container {
+    animation: hideSpinner 2s forwards;
+}
+
+
+.location {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+    background-color: #ebebeb;
+}
+
+.location-text {
+    font-size: 18px;
+    margin-left: 14px;
+}
+
+.book-menu-container {
+    padding: 60px 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurants-text {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    color: #666;
+}
+
+
+
+/* Restaurants Working */
+.restaurant-working {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.choose-restaurant-button {
+    position: relative;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    border-radius: 15px;
+    color: black;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto 40px 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.enjoy-restaurant-button {
+    position: relative;
+    background-color: #e6dbf3;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto 40px 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.choose-restaurant-text {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+}
+
+.enjoy-restaurant-text {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+}
+
+.restaurant-single-text {
+    margin-left: 2px;
+}
+
+.fa-mobile-alt, .fa-list, .fa-store-alt {
+    font-size: 17px;
+    width: 10%;
+    text-align: left;
+}
+
+.fa-store-alt {
+    color: #9356DC;
+}
+
+
+.choose-restaurant-button-circle {
+    position: absolute;
+    left: -10px;
+    width: 24px;
+    height: 24px;
+    background-color: #9356DC;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.enjoy-restaurant-button-circle {
+    position: absolute;
+    left: -10px;
+    width: 24px;
+    height: 24px;
+    background-color: #9356DC;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+/* Restaurants Section */
+.restaurants-section-container {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.restaurants-section {
+    margin: auto;
+    width: 90%;
+}
+
+
+/* Products */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+}
+
+
+.product-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.new-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #99E2D0;
+    color: green;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.product-info {
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product-location {
+    font-size: 18px;
+    color: gray;
+}
+
+/* .product-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-rating .fa-heart {
+    font-size: 25px;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.product-rating .fa-heart:hover {
+    background: linear-gradient(to bottom, #FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FF79DA;
+    transition: background 0.3s ease;
+    font-weight: 900;
+    cursor: pointer;
+} */
+
+.product-rating {
+    position: relative;
+    display: inline-block;
+}
+
+.heart-icon {
+    font-size: 25px;
+    color: #000;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.heart-icon .fa-solid {
+    display: none;
+    color: #FF79DA;
+    transition: color 0.3s ease;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .heart-icon .fa-regular {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .heart-icon .fa-solid {
+    display: inline;
+}
+
+.heart-icon .fa-regular:hover {
+    background: linear-gradient(to bottom, #FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FF79DA;
+    font-weight: 900;
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .product-card {
+        width: 49%;
+    }
+
+}

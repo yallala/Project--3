@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OhMyFood - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./styles/headerfooter.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="spinner-container">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="content">
+        <!-- Header -->
+        <div class="header-container">
+            <a href="./Home.html">
+                <img class="logo" src="./images/logo/ohmyfood.png" alt="OhMyFood Header Logo">
+            </a>
+        </div>
+
+        <!-- Location Section -->
+        <div class="location">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            <span class="location-text">Paris, Belleville</span>
+        </div>
+
+        <!-- Book Menu -->
+        <div class="book-menu-container">
+            <h2>Book the menu you like</h2>
+            <p class="restaurants-text">Discover top-of-art restaurants we picked for you</p>
+            <button class="explore-restaurants">Explore our restaurants</button>
+        </div>
+
+        <!-- Restaurant Working -->
+        <div class="restaurant-working">
+            <h2>How it works</h2>
+            <!-- Choose Restaurant button -->
+            <span class="choose-restaurant-button">
+                <span class="choose-restaurant-button-circle">1</span>
+                <span class="choose-restaurant-text">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="restaurant-single-text">Choose a restaurant</span>
+                </span>
+            </span>
+
+            <!-- Choose Restaurant button -->
+            <span class="choose-restaurant-button">
+                <span class="choose-restaurant-button-circle">2</span>
+                <span class="choose-restaurant-text">
+                    <i class="fas fa-list"></i>
+                    <span class="restaurant-single-text">Create your menu</span>
+                </span>
+            </span>
+
+            <!-- Choose Restaurant button -->
+            <span class="enjoy-restaurant-button">
+                <span class="enjoy-restaurant-button-circle">3</span>
+                <span class="enjoy-restaurant-text">
+                    <i class="fas fa-store-alt"></i>
+                    <span class="restaurant-single-text">Go enjoy it at the restaurant</span>
+                </span>
+            </span>
+        </div>
+
+        <!-- Restaurants Section -->
+        <div class="restaurants-section-container">
+            <div class="restaurants-section">
+                <h2>Restaurants</h2>
+
+                <!-- Products -->
+                <!-- 1st Product -->
+                <div class="products">
+                    <div class="product-card">
+                        <a href="./TheFullPalette.html">
+                            <div class="image-container">
+                                <img class="product-img" src="./images/restaurants/The-Full-Palette.jpg"
+                                    alt="The Full Palette">
+                                <div class="new-badge">NEW</div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-title-location">
+                                    <div class="product-name">
+                                        The Full Palette
+                                    </div>
+                                    <div class="product-location">
+                                        New York
+                                    </div>
+                                </div>
+                                <!-- <div class="product-rating">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div> -->
+                                <div class="product-rating">
+                                    <input type="checkbox" id="heart-toggle" />
+                                    <label for="heart-toggle" class="heart-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </label>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 2nd Product -->
+                    <div class="product-card">
+                        <a href="./TheEnchantedPlate.html">
+                            <div class="image-container">
+                                <img class="product-img" src="./images/restaurants/The-Enchanted-Plate.jpg"
+                                    alt="The Enchanted Plate">
+                                <div class="new-badge">NEW</div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-title-location">
+                                    <div class="product-name">
+                                        The Enchanted Plate
+                                    </div>
+                                    <div class="product-location">
+                                        New York
+                                    </div>
+                                </div>
+                                <div class="product-rating">
+                                    <label for="heart-toggle" class="heart-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 3rd Product -->
+                    <div class="product-card">
+                        <a href="./Bastille.html">
+                            <div class="image-container">
+                                <img class="product-img" src="./images/restaurants/Bastille.jpg" alt="Bastille">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-title-location">
+                                    <div class="product-name">
+                                        Bastille
+                                    </div>
+                                    <div class="product-location">
+                                        New York
+                                    </div>
+                                </div>
+                                <div class="product-rating">
+                                    <label for="heart-toggle" class="heart-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 4th Product -->
+                    <div class="product-card">
+                        <a href="./LeGourmand.html">
+                            <div class="image-container">
+                                <img class="product-img" src="./images/restaurants/Le-Gourmand.jpg" alt="Le Gourmand">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-title-location">
+                                    <div class="product-name">
+                                        Le Gourmand
+                                    </div>
+                                    <div class="product-location">
+                                        New York
+                                    </div>
+                                </div>
+                                <div class="product-rating">
+                                    <label for="heart-toggle" class="heart-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <div class="footer-container">
+            <span class="footer-logo-text">ohmyfood</span>
+            <span class="footer-page"><span class="footer-icon"><i class="fas fa-utensils"></i></span>Suggest a
+                restaurant</span>
+            <span class="footer-page"><span class="footer-icon"><i class="fas fa-handshake"></i></span>Become a
+                partner</span>
+            <span class="footer-page">Legal</span>
+            <span class="footer-page"><a class="contact" href="mailto: ohmyfood@gmail.com">Contact</a></span>
+        </div>
+    </div>
+</body>
+
+<script>
+    window.onload = function () {
+        setTimeout(function () {
+            document.querySelector('.spinner-container').style.display = 'none';
+            document.querySelector('.content').style.display = 'block';
+        }, 2000); // Set timeout to match the spinner's animation duration
+    };
+</script>
+
+</html>

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.explore-restaurants {
+  border-radius: 40px;
+  background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.explore-restaurants:hover {
+  background: linear-gradient(to bottom, #f89bdd, #aa7de2);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.order-button {
+  border-radius: 40px;
+  background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  width: 200px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-button:hover {
+  background: linear-gradient(to bottom, #fab8e7, #ba96e7);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=styles.css.map */

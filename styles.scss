@@ -1,0 +1,63 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap');
+
+// Variables
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+$button-hover-main: #f788d7;
+$button-hover-secondary: #9f6cde;
+$font-logo: 'Shrikhand', cursive;
+$font-main: 'Roboto', sans-serif;
+// $font-main: 'Montserrat', sans-serif;
+
+
+// Global Styles
+body {
+  font-family: $font-main;
+  margin: 0;
+  padding: 0;
+}
+
+.explore-restaurants {
+  border-radius: 40px;
+  background: linear-gradient(to bottom, $secondary-color, $primary-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.explore-restaurants:hover {
+  // background: linear-gradient(to bottom, $button-hover-main, $button-hover-secondary);
+  background: linear-gradient(to bottom, lighten($button-hover-main, 4%), lighten($button-hover-secondary, 4%));
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.order-button {
+    border-radius: 40px;
+    background: linear-gradient(to bottom, $secondary-color, $primary-color);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-button:hover {
+  // background: linear-gradient(to bottom, $button-hover-main, $button-hover-secondary);
+  background: linear-gradient(to bottom, lighten($button-hover-main, 10%), lighten($button-hover-secondary, 10%));
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
