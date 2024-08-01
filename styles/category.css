@@ -74,11 +74,20 @@
     text-overflow: ellipsis;  
 }
 
-.product-category-price {
+/* .product-category-price {
     white-space: nowrap;
     font-weight: 600;
     transition: transform 0.3s ease;
     margin-right: 36px;
+} */
+
+.product-category-price {
+    white-space: nowrap;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+    margin-right: 40px;
+    background-color: white;
+    padding-left: 10px;
 }
 
 .tick-container {
