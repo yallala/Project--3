@@ -40,7 +40,9 @@
     border-bottom: 2px solid #99E2D0;
     color: gray;
 }
-
+.entree-main-text-two-parts{
+    color: gray;
+}
 
 /* Category Product */
 .category-product {
