@@ -29,6 +29,10 @@
     margin: auto;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
 /* Footer */
 .footer-container {
@@ -48,6 +52,8 @@
 
 .footer-page {
     padding: 4px 0;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-icon {
