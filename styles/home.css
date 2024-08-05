@@ -1,45 +1,3 @@
-/* .spinner-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    z-index: 9999;
-    animation: fadeOut 3s forwards;
-} */
-
-/* .spinner {
-    border: 8px solid #f3f3f3;
-    border-top: 8px solid #3498db;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    animation: spin 2s linear infinite;
-} */
-
-
-/* @keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
-} */
 
 
 
@@ -132,7 +90,7 @@
 }
 
 .book-menu-container {
-    padding: 60px 0;
+    padding: 40px 0;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
     background-color: #f8f8f8;
     display: flex;
@@ -153,7 +111,7 @@
 /* Restaurants Working */
 .restaurant-working {
     width: 80%;
-    margin: 80px auto;
+    margin: 37px auto;
 }
 
 .choose-restaurant-button {
@@ -163,7 +121,7 @@
     border-radius: 15px;
     color: black;
     width: 100%;
-    height: 60px;
+    height: 72px;
     margin: 0 auto 40px 0;
     font-size: 20px;
     font-weight: 600;
@@ -179,7 +137,7 @@
     border-radius: 15px;
     color: black;
     width: 100%;
-    height: 60px;
+    height: 72px;
     margin: 0 auto 40px 0;
     font-size: 20px;
     font-weight: 600;
@@ -194,7 +152,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 .enjoy-restaurant-text {
@@ -203,7 +161,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .restaurant-single-text {
@@ -211,7 +169,7 @@
 }
 
 .fa-mobile-alt, .fa-list, .fa-store {
-    font-size: 17px;
+    font-size: 20px;
     width: 10%;
     text-align: left;
 }
@@ -277,7 +235,7 @@
 
 .product-img {
     width: 100%;
-    height: 210px;
+    height: 180px;
     object-fit: cover;
 }
 

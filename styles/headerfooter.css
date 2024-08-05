@@ -41,6 +41,7 @@ a {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    line-height: 28px;
 }
 
 .footer-logo-text {
