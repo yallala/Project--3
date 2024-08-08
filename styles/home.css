@@ -278,28 +278,6 @@ a {
     color: gray;
 }
 
-/* .product-rating {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.product-rating .fa-heart {
-    font-size: 25px;
-    color: #000;
-    transition: color 0.3s ease;
-}
-
-.product-rating .fa-heart:hover {
-    background: linear-gradient(to bottom, #FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #FF79DA;
-    transition: background 0.3s ease;
-    font-weight: 900;
-    cursor: pointer;
-} */
-
 .product-rating {
     position: relative;
     display: inline-block;
